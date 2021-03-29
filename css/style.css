@@ -1,0 +1,50 @@
+h1{
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding-left: 1rem;
+    background-color:#fcd1d1;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+}
+
+main {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    background-color: #ece2e1;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    line-height: 2.5rem;
+
+}
+ body{
+     background-color:#d3e0dc ;
+ }
+
+ ul li{display: inline-block;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+nav{
+    background-color:#b2bdb9;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; 
+}
+a{
+    color:rgba(56, 17, 56, 0.89);
+    font-weight: bold;
+}
+img{
+    width:95%;
+    padding-top: 2rem;
+    height: 600px;
+    margin-left: 2.5rem;
+}
+footer{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+}
