@@ -85,7 +85,7 @@ if(favoriteHobby=='yes'||favoriteHobby=='y'){
 }favHobby();
 
 //Q5
-//function favPlace(){
+function favPlace(){
 
 let favoritePlace =prompt ("Is my favorite place to go is the sea?");
 favoritePlace= favoritePlace.toLowerCase();
@@ -101,7 +101,7 @@ if(favoritePlace=="yes"||favoritePlace=="y"){
     //console.log ("Sorry, but you didn't give an answer");
     alert("Sorry, but you didn't give an answer");
 }
-//}favPlace();
+}favPlace();
 
 //q6:how many cities you think I visit, out of Jordan?; takes only numbers; compare it to the correct no.
 //function ciNum(){
