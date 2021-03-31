@@ -9,7 +9,7 @@ alert("lets play a guessing game, all what you have to do is answering with yes 
 // 5(y/n) questions about the owner
 let scor=" ";
 
-
+function favFood(){
 let favoriteFood =prompt ("Is my favorite food Dawaly?");
 favoriteFood= favoriteFood.toLowerCase();
 
@@ -25,8 +25,11 @@ else {
     //console.log ("Sorry, but you didn't give an answer");
     alert("Sorry, but you didn't give an answer");
 }
+}
+favFood();
 
-
+//Q2
+function favColor(){
 let favoriteColor =prompt ("Is my favorite color green?");
 favoriteColor= favoriteColor.toLowerCase();
 if(favoriteColor=='yes'||favoriteColor=='y'){
@@ -40,7 +43,11 @@ if(favoriteColor=='yes'||favoriteColor=='y'){
     //console.log ("Sorry, but you didn't give an answer");
     alert("Sorry, but you didn't give an answer");
 }
+}
+favColor();
 
+//Q3
+function favSport(){
 
 let favoriteSport =prompt ("Is my favorite sport running?");
 favoriteSport= favoriteSport.toLowerCase();
@@ -56,7 +63,11 @@ if(favoriteSport=="no"||favoriteColor=="n"){
     //console.log ("Sorry, but you didn't give an answer");
     alert("Sorry, but you didn't give an answer");
 }
+}
+favSport();
 
+//Q4
+function favHobby(){
 
 let favoriteHobby =prompt ("Is my favorite hobby is sleep?");
 favoriteHobby= favoriteHobby.toLowerCase();
@@ -72,7 +83,11 @@ if(favoriteHobby=='yes'||favoriteHobby=='y'){
     //console.log ("Sorry, but you didn't give an answer");
     alert("Sorry, but you didn't give an answer")
 }
+}
+favHobby();
 
+//Q5
+function favPlace(){
 
 let favoritePlace =prompt ("Is my favorite place to go is the sea?");
 favoritePlace= favoritePlace.toLowerCase();
@@ -88,11 +103,11 @@ if(favoritePlace=="yes"||favoritePlace=="y"){
     //console.log ("Sorry, but you didn't give an answer");
     alert("Sorry, but you didn't give an answer");
 }
-
-
+}
+favPlace();
 
 //q6:how many cities you think I visit, out of Jordan?; takes only numbers; compare it to the correct no.
-
+function ciNum(){
 
 
 for (let i=0; i<5; i++ ){
@@ -121,11 +136,11 @@ if (i===4){
     alert('You lost, \n the correct answer is 6 ');
 }
 }
-
-
+}
+ciNum();
 
 //q7: ask abuot the cities that I visit; if the visitor answer one correct break the loop and give the auther correct answers; ig not give him 6 attempts 
-    
+  function citiesArray(){  
 let cities=["ny","chicago", "philadelphia", "boston", "dc", "wisconsin dells"];
 let cityGuesses= null;
 let attempts =6;
@@ -150,7 +165,8 @@ alert ("you run out of attemts; these are answers: \n ny, chicago, philadelphia,
 }  
 alert("sorry wrong answer, try again");
 }
-
+  }
+  citiesArray();
 // giving the user his scor 
 alert(`well done ${userName}  your score is ${scor}/7`); 
 
