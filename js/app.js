@@ -47,7 +47,7 @@ if(favoriteColor=='yes'||favoriteColor=='y'){
 favColor(); 
 
 //Q3
-//function favSport(){
+function favSport(){
 
 let favoriteSport =prompt ("Is my favorite sport running?");
 favoriteSport= favoriteSport.toLowerCase();
@@ -63,7 +63,7 @@ if(favoriteSport=="no"||favoriteColor=="n"){
     //console.log ("Sorry, but you didn't give an answer");
     alert("Sorry, but you didn't give an answer");
 }
-//}favSport();
+}favSport();
 
 //Q4
 //function favHobby(){
