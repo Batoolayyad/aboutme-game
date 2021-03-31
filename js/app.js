@@ -135,7 +135,7 @@ if (i===4){
 }ciNum();
 
 //q7: ask abuot the cities that I visit; if the visitor answer one correct break the loop and give the auther correct answers; ig not give him 6 attempts 
- // function citiesArray(){  
+  function citiesArray(){  
 let cities=["ny","chicago", "philadelphia", "boston", "dc", "wisconsin dells"];
 let cityGuesses= null;
 let attempts =6;
@@ -161,10 +161,10 @@ alert ("you run out of attemts; these are answers: \n ny, chicago, philadelphia,
 alert("sorry wrong answer, try again");
 }
 }
-//} citiesArray();
+
 // giving the user his scor 
 alert(`well done ${userName}  your score is ${scor}/7`); 
-
+} citiesArray();
 
 // alert thanking the visitor for visiting the site 
 alert(`${userName} thank you for visiting our website`);
