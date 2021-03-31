@@ -35,5 +35,12 @@ with help from:
 * practicing on loops 
 * practicing on arrays
 
- 
+ # LAB- 04
+
+ *Driver* : Fadia Al-dasouqi.
+ *Navigator* : Batool Ayyad. 
+
+ **In this lab we worked together at first we saw the code, understood what the requirements of the lab then tried to do the first question with function**
+
+ So, we have a lot of fun, tried to figure out the errors together also. 
 
