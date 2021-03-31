@@ -7,7 +7,7 @@ alert("lets play a guessing game, all what you have to do is answering with yes 
 
 
 // 5(y/n) questions about the owner
-let scor=0
+let scor=" ";
 
 
 let favoriteFood =prompt ("Is my favorite food Dawaly?");
@@ -111,12 +111,15 @@ alert ("too low, try agian" );
  else if ( citiesNumber>= 10 ){
 alert ("too big, try agian" );
 }
-else if (3< citiesNumber <9){
+else if (3<= citiesNumber || citiesNumber<=9){
 alert("you are close, try agin");
 } 
 else {
     alert ("enter number please" );}
 
+if (i===4){
+    alert('You lost, \n the correct answer is 6 ');
+}
 }
 
 
@@ -124,41 +127,36 @@ else {
 //q7: ask abuot the cities that I visit; if the visitor answer one correct break the loop and give the auther correct answers; ig not give him 6 attempts 
     
 let cities=["ny","chicago", "philadelphia", "boston", "dc", "wisconsin dells"];
-let correctAnswer=0;
+let cityGuesses= null;
+let attempts =6;
 
-let userRight=true;
-
-let cityGuesses= prompt('What are the cities that you think I visited out of Jordan?');
-cityGuesses=cityGuesses.toLowerCase();
-
-while(correctAnswer < 6){
+attemptsNumber:while(attempts){
+    
+    attempts=attempts-1;
+    let cityGuesses= prompt('What are the cities that you think I visited out of Jordan \n you have 6 attembts?');
+     cityGuesses=cityGuesses.toLowerCase();
     for (let i=0; i< cities.length; i++){
-    if(cityGuesses=== cities[i]){
-        alert('great, how did you guess!');
-        correctAnswer=6;
-        score=score+1;
-        userRight=false;
-        break;
+        if(cityGuesses=== cities[i]){
+        alert('great, how did you guess! \n the correct answers' +cities);
+    
+        scor++
+        
+        break attemptsNumber;
     }
-    }
-    correctAnswer++;
-    if( correctAnswer < 6 && userRight===true) {
-    cityGuesses= prompt('I wish if I did visit this city, but I never have been there \n please try again :');
-    }
-    if(correctAnswer >= 6 && userRight===true){
-    alert('You lost');
-    }
-
+    
+}
+if (!attempts){
+alert ("you run out of attemts; these are answers: \n ny, chicago, philadelphia, boston, dc, wisconsin dells");
+}  
+alert("sorry wrong answer, try again");
 }
 
-alert ("these are the cities I visited before: \n ny, chicago, philadelphia, boston, dc, wisconsin dells")
-
 // giving the user his scor 
-alert('well done '+userName+' \n your score is '+scor+'/7'); 
+alert(`well done ${userName}  your score is ${scor}/7`); 
 
 
 // alert thanking the visitor for visiting the site 
-alert(userName+ " thank you for visiting our website");
+alert(`${userName} thank you for visiting our website`);
 
 
     
