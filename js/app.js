@@ -104,7 +104,7 @@ if(favoritePlace=="yes"||favoritePlace=="y"){
 }favPlace();
 
 //q6:how many cities you think I visit, out of Jordan?; takes only numbers; compare it to the correct no.
-//function ciNum(){
+function ciNum(){
 
 for (let i=0; i<5; i++ ){
 
@@ -132,7 +132,7 @@ if (i===4){
     alert('You lost, \n the correct answer is 6 ');
 }
 }
-//}ciNum();
+}ciNum();
 
 //q7: ask abuot the cities that I visit; if the visitor answer one correct break the loop and give the auther correct answers; ig not give him 6 attempts 
  // function citiesArray(){  
