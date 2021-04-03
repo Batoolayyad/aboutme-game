@@ -9,11 +9,14 @@ this done by using if statements inside a for loop.
 * add equestion to ask about the cities that I visit; if the visitor answer one correct break the loop and give the auther correct answers; if not give him 6 attempts. 
 this done by using 2 loops iside each others and an array
 
+* add an ordered list having my Top ten series with GIF for each one.
+
 
 
 
 ### Author: Batool
-with help from:
+
+with help from in question (7):
  Samer Allaham, teacher
  Ayman Naif, friend
 
@@ -22,8 +25,6 @@ with help from:
 * [canvas](https://canvas.instructure.com/courses/2625796/assignments/20846796)
 
 * [LTUC/amman-201d20](https://github.com/LTUC/amman-201d20)
-
-* [unsplash](https://unsplash.com/)
 
 * [css-tricks](https://css-tricks.com/custom-list-number-styling/)
 

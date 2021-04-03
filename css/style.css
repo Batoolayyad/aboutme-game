@@ -1,26 +1,31 @@
 h1{
     padding-top: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    padding-left: 1rem;
-    background-color:#fcd1d1;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+     background-color:#16213e ;
     padding-bottom: 2rem;
     font-weight: bolder;
+    text-align: center;
 }
 
 main {
     font-size: 1.5rem;
-    padding-left: 1rem;
-    background-color: #ece2e1;
-    margin-top: 3rem;
+    padding-left: 1.5rem;
+    background-color: #16213e ;
+    padding: 1.5rem;
     margin-bottom: 3rem;
-    padding-top: 2.5rem;
     padding-bottom: 3rem;
     line-height: 2.5rem;
+    
 
 }
- body{
-     background-color:#d3e0dc ;
+ .intro {
+     padding-left: 1rem;
+ }
+body{
+     background-color:#16213e ;
+     color: white;
+     
  }
 
  ul li{display: inline-block;
@@ -31,40 +36,85 @@ nav{
     background-color:#b2bdb9;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem; 
+    padding-left: 1.5rem;
 }
 a{
-    color:rgba(56, 17, 56, 0.89);
+    color:#16213e;
+    font-weight: bold;
+    text-decoration: none;
+}
+h2{
     font-weight: bold;
 }
-img{
-    width:95%;
+.Education{
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+.Education ul li{
+    display: list-item;
+    list-style: circle;
+}
+ .work{
+     padding-top: 1.5rem;
+     padding-left: 1rem;
+ }
+.work ul li {
+    display: list-item;
+    list-style: circle;  
+ }
+
+
+.top10 {
+    padding-left: 1rem;
+}
+.top10 h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
     padding-top: 2rem;
-    height: 600px;
-    margin-left: 2.5rem;
 }
-footer{
-    font-size: 1.5rem;
+
+ol {
+    counter-reset: my-awesome-counter;
+    float :inline-end , left;
+    margin-right: 0mm;
+    width:60%
+
+}
+ol li {
+    counter-increment: my-awesome-counter;
+    position: relative;  
+    left: 50%;
+    margin-right: 0mm;
+    font-size: 2rem;
     font-weight: bold;
-    text-align: center;
+}
+ol li p::before  {
+    content: counter(my-awesome-counter) ". ";
+    color:white;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-size: 2rem; 
+    height: .5rem;
+    margin-right: 0mm;
+}
+
+ol li p {
+    font-weight: bold;
+    
+}
+
+ol li img {
+    display: inline-block;
+    position: relative;
+    right: 30%;
     padding-bottom: 2rem;
 }
 
 
-
-ol {
-    list-style: none;
-    counter-reset: my-awesome-counter;
-  }
-  ol li {
-    counter-increment: my-awesome-counter;
-  }
-  ol li::before {
-    content: counter(my-awesome-counter) ". ";
-    color:rgba(56, 17, 56, 0.89);
+footer{
+    font-size: 1rem;
     font-weight: bold;
-  }
-
-   ul {
-    list-style-type: disc;
-    
-  }
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
